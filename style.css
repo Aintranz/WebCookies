@@ -190,12 +190,12 @@ section{
     line-height: 1.6;
     color: var(--black);
 }
-.product .product-row .product-content .orderNow{
+.product .product-row .product-content .AddToCart{
     height: 3rem;
     margin-top: 2rem;
     margin-bottom: 3rem;
 }
-.product .product-row .product-content .orderNow button{
+.product .product-row .product-content .AddToCart button{
     font-size: 1.8rem;
     background-color: var(--red);
     color: var(--white);
@@ -203,7 +203,7 @@ section{
     padding: .7rem 2rem;
     cursor: pointer;
 }
-.product .product-row .product-content .orderNow button:hover{
+.product .product-row .product-content .AddToCart button:hover{
     font-size: 2rem;
 }
 
@@ -341,4 +341,76 @@ body {
     html{
         font-size: 50%;
     }
+}
+
+.footer {
+    background: url(images/FooterBG.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+}
+.footer .box-container .mainBox .content{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.footer .box-container .mainBox .content h1{
+    font-size: 2rem;
+    color: var(--black);
+}
+.footer .box-container .mainBox p{
+    font-size: 1.7rem;
+    line-height: 1.3;
+    margin-bottom: 2rem;
+}
+.footer .box-container .box h3{
+    font-size: 2.2rem;
+    color: var(--black);
+    padding: 1rem 0;
+}
+.footer .box-container .box a{
+    display: block;
+    font-size: 1.6rem;
+    color: var(--black);
+    padding: 1rem 0;
+}
+.footer .box-container .box a i{
+    padding-right: .5rem;
+    color: var(--black);
+}
+.footer .box-container .box a:hover i{
+    padding-right: 2rem;
+}
+
+.footer .share{
+    padding: 1rem 0;
+    text-align: center;
+}
+.footer .share a{
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    font-size: 2rem;
+    color: var(--white);
+    background: var(--black);
+    margin: 0 .3rem;
+    border-radius: 50%;
+
+}
+.footer .share a:hover{
+    background: var(--white);
+    color: var(--black);
+}
+.footer .credit{
+    font-size: 2rem;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    color: var(--black);
+    text-align: center;
+
 }
