@@ -17,7 +17,7 @@ Tutorial to Run LBA Cookie website
 6. Open *Xampp Control* and start *Apache & Mysql*
 7. click Admin beside *Apache*
 8. click *phpmyadmin*
-9. type to Chrome or Firefox Mozilla *Localhost:8080/WebCookies*
+9. type to Chrome or Firefox Mozilla *Localhost/WebCookies* or use *Localhost:8080/WebCookies* if the link did not appear
 10. for database go to *localhost phpmyadmin*
 11. make a database named *onlinecart*
 12. Go to import then select *onlinecart.sql* file. 
